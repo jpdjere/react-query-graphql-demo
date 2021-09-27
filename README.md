@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# React Query Demo
+
+A demo of a React app that uses React Query to solve state management.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
