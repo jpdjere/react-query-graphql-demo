@@ -1,6 +1,6 @@
-# React Query Demo
+# React Query + GraphQL Demo
 
-A demo of a React app that uses React Query to solve state management.
+A demo of a React app that uses React Query, GraphQL and GraphQL-Codegen to perform data handling and solve state management.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
