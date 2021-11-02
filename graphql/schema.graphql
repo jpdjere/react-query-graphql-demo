@@ -1,0 +1,29 @@
+# Example schema taken from https://graphqlzero.almansi.me/api and simplified
+type Query {
+  user(id: ID!): User!
+}
+
+type Mutation {
+  updateUser(id: ID!, input: UpdateUserInput!): User
+  deleteUser(id: ID!): Boolean
+}
+
+type User {
+  id: ID
+  name: String
+  username: String
+  email: String
+}
+
+input UpdateUserInput {
+  name: String
+  username: String
+  email: String
+}
+
+input AddressInput {
+  street: String
+  suite: String
+  city: String
+  zipcode: String
+}
